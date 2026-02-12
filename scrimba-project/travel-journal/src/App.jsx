@@ -1,11 +1,13 @@
-
+import Header from './components/Header'
 import './App.css'
+import Places from './components/Places'
 
 function App() {
 
   return (
     <>
-    <h2 className='text-red-500'>Welcome to my travel journal</h2>
+     <Header/>
+     <Places/>
     </>
   )
 }
